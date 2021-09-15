@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+     <meta charset="UTF-8" > <!--この記述は多分必須-->
+     <meta name="viewport" content="width=device-width,initial-scale=1.0," >
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!--Bootstrap CSS-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<!--ここにCSSを書く??-->
+<style>
+body{
+    
+}
+.題名{
+    overflow: hidden;
+    text-align: center;
+    font-size: 55px;
+}
+
+.下線{
+    position:relative;
+    margin-left: 130px;
+}
+
+.目次 p{
+    display: inline-block;
+    font-size: 20px;
+    
+}
+
+
+
+.プロフィール画像{
+    position: relative;
+    margin-left: 200px;
+}
+
+.box0 p{
+    display:inline-block;
+}
+.box1{
+ padding: 0.5em 1em;
+ margin: 2em 6.5em;
+ width: 230px;
+ text-align: center;
+ color: #5d627b;
+ background: white;
+ border-top: solid 0px #5d627b;
+ box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.22);
+}
+.star5_rating{
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    white-space: nowrap;
+    color: #CCCCCC;
+}
+.star5_rating:before,.star5_rating:after{
+    content: '★★★★★';
+}
+.star5_rating:after{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    color: black;
+}
+.star5_rating[data-rate="2"]:after{width: 40%;}
+
+.box2{
+ padding: 0.5em 1em;
+ margin: 2em 6.5em;
+ width: 230px;
+ text-align: center;
+ color: #5d627b;
+ background: white;
+ border-top: solid 0px #5d627b;
+ box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.22);
+}
+.box3{
+ padding: 0.5em 1em;
+ margin: 2em 6.5em;
+ width: 230px;
+ text-align: center;
+ color: #5d627b;
+ background: white;
+ border-top: solid 0px #5d627b;
+ box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.22);
+}
+</style> 
+
+ </head>
+
+ <body>
+
+     <!--ここにHTMLを書く-->
+
+     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+     <!--題名-->
+     <h1 class="題名">
+        Shunya's Portfolio.
+     </h1>
+
+    <!--下線-->
+     <div class="下線">
+        <hr style="height: 2px;" width="470" size="30" color="black">
+    </div>
+
+    <!--目次-->
+   　<div class="目次">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <p><a href="#index1" style="color:#373C38">01. 自己紹介</a></p>&nbsp;&nbsp;&nbsp;&nbsp;
+    <p><a href="#index2" style="color:#373C38" >02. スキルセット</a></p>&nbsp;&nbsp;&nbsp;&nbsp;
+    <p><a href="#index3" style="color:#373C38" >03. 成果物</a></p>
+    </div>
+
+     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+     <!--自己紹介-->
+    <p style="text-align: center;">01.</p>
+    <h2 style="text-align: center;"><a id="index1">自己紹介</a></h2>
+    <p style="text-align: center;">self Infomation</p>
+
+    <br><br><br>
+
+     <!--プロフィール画像-->
+     <img class="プロフィール画像" src="https://github.com/shunya813/shunya-s-Portfolio/blob/main/%E3%83%86%E3%82%99%E3%82%AF%E5%A3%81%E7%B4%99%EF%BC%91.jpg" width="240px" height="240px">
+
+     <br><br><br>
+     よろしくお願いします
+    
+    <!--スキルセット-->
+    <p style="text-align: center;">02.</p>
+    <h3 style="text-align: center;" > <a id="index2">スキルセット</a></h3>
+    <p style="text-align: center;">skill of Programming</p>
+    <div class="box0">
+        <p class="box1">
+            <br>
+            HTML 
+            <br><br>
+            <!--レビュー(星)⭐️-->
+            <span class="star5_rating" data-rate="2"></span>
+        </p>
+        <p class="box2" >
+            <br>
+            CSS
+            <br><br>
+        </p>
+        <p class="box3" >
+            <br>
+            javaScript
+            <br><br>
+        </p>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br>
+
+    <!--成果物-->
+    <p style="text-align: center;">03.</p>
+    <h4 style="text-align:center;"> <a id="index3">成果物</a></h4>
+    <p style="text-align: center;">deployed Applications</p>
+
+    <p style="text-align: center;">
+        <br><br>
+        <a href="https://apps.apple.com/jp/app/line/id443904275?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1308528000&h=ec000a4c989fa72d595f1ff45b4d6174" alt="AppStoreからダウンロード" style="border-radius: 13px; width: 210px; height: 70px;"></a>
+    </p>
+    
+
+    <br><br><br><br><br><br><br>
+    <!--フッター⏬-->
+    <footer>
+        <hr style="height: 1px;" width="1100" size="20" color="black">
+    </footer>
+    <br>
+    <p style="text-align: center;" > Please contact from here.</p>
+    <p style="text-align: center;" >(お問合せはこちらから)</p>
+    <br>
+    <!--GithubとTwitterとQiitaメールアドレスのアイコンを貼る-->
+    
+    <img src="/Users/shunyataniguchi/Library/Mobile Documents/com~apple~CloudDocs/ポートフォリオ2(VSCode)/img/仮サンジ画像.png" alt="">
+    <!--javaScriptを挿入-->
+    
+ </body>
+
+</html>
